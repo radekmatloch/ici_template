@@ -19,6 +19,8 @@ RStudio (recommended)
 Required R Packages
 install.packages(c("tidyverse", "lubridate", "geosphere", "tidygeocoder"))
 
+Google API key recomended
+
 Download real estate transaction CSVs from plvr.land.moi.gov.tw (非本期下載 tab, 進階下載, select 臺北市 + 不動產買賣, quarters 104Q1 through 112Q4)
 Download school directories from data.gov.tw/dataset/6087 (elementary) and data.gov.tw/dataset/6089 (junior high)
 Place all files in the data/ folder
