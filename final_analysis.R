@@ -7,7 +7,7 @@ library(lubridate)
 library(tidygeocoder)
 library(geosphere)
 
-Sys.setenv(GOOGLEGEOCODE_API_KEY = "AIzaSyC8HJ4BoUR_3jINHyfYF2RgX1UDwT8u7B0")
+Sys.setenv(GOOGLEGEOCODE_API_KEY = "....")
 
 data_folder <- "C:/Users/owner/Downloads/Big Data/week 10/final/big data project"
 
