@@ -54,11 +54,6 @@ Geocoding: Experimental school coordinates obtained manually from Google Maps. R
 Catchment Zones: For each property, calculated Haversine distance to nearest experimental and nearest regular school within the same district. Properties tagged based on which school is closer, creating natural catchment zones.
 Comparison: Overall proximity comparison, per-school price premium, matched apartment comparison (2-4 room apartments only), and difference-in-differences using each school's conversion date.
 
-# Step 1: Run the data loading and cleaning script
-source("scripts/analysis.R")
-
-# Step 2: Run the proximity analysis (uses clean_data from Step 1)
-source("scripts/proximity_analysis_v2.R")
 
 ## Results
 
